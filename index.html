@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FEE500">
+  <title>씨네소파 바로가기</title>
+  <meta name="description" content="씨네소파 홈페이지 바로가기">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; background: linear-gradient(145deg, #fff8e7, #ffe8ee);
+      font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      color: #292524;
+    }
+    main {
+      width: min(100%, 430px); text-align: center; background: rgba(255,255,255,.96);
+      border: 1px solid rgba(0,0,0,.06); border-radius: 28px; padding: 34px 24px;
+      box-shadow: 0 18px 50px rgba(90, 55, 55, .12);
+    }
+    .icon { font-size: 48px; margin-bottom: 10px; }
+    .brand { font-size: 13px; font-weight: 800; letter-spacing: .16em; color: #9a6b6b; }
+    h1 { margin: 12px 0 10px; font-size: clamp(25px, 6vw, 32px); line-height: 1.3; }
+    p { margin: 0 auto 24px; color: #68615f; line-height: 1.7; font-size: 15px; }
+    .button {
+      display: flex; align-items: center; justify-content: center; gap: 9px;
+      width: 100%; min-height: 58px; padding: 16px 18px; border-radius: 16px;
+      background: #FEE500; color: #191600; font-weight: 800; font-size: 17px;
+      text-decoration: none; box-shadow: 0 5px 0 #e4cf00; transition: transform .12s, box-shadow .12s;
+    }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 7px 0 #e4cf00; }
+    .button:active { transform: translateY(2px); box-shadow: 0 2px 0 #e4cf00; }
+    .note { margin-top: 22px; margin-bottom: 0; font-size: 12px; color: #9b9290; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="icon" aria-hidden="true">🎬</div>
+    <div class="brand">CINE SOFA</div>
+    <h1>씨네소파</h1>
+    <p>씨네소파 홈페이지로 이동하시려면<br>아래 버튼을 눌러주세요.</p>
+    <a class="button" href="https://cinesofamovie.com/" target="_blank" rel="noopener noreferrer">
+      🎟️ 씨네소파 바로가기 <span aria-hidden="true">↗</span>
+    </a>
+    <p class="note">버튼을 누르면 씨네소파 홈페이지가 새 창에서 열립니다.</p>
+  </main>
+</body>
+</html>
